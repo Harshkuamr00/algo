@@ -1,34 +1,19 @@
+# Learn Machine Learning Algorithms with Python – Hands-On Implementations
+
 Welcome to the "Learn Machine Learning Algorithms with Python" repository!
 This project is a practical, code-first resource for mastering machine learning algorithms using Python.
 It features clean implementations, dataset management, and visualizations for each model—organized for easy learning and reference.
-🚀 Project Overview
+
+## 🚀 Project Overview
 
 This repository is designed for learners and practitioners who want to understand, implement, and visualize core machine learning algorithms from scratch.
 Each algorithm is implemented in a dedicated folder with code, explanations, datasets, and visualizations.
 You can use this as a reference, a learning tool, or a starting point for your own ML projects.
-📂 Repository Structure
 
-text
-algo/
-│
-├── Bagging-Bootstrap-aggregate/
-├── Logistic-Regression/
-├── confusion-matrix/
-├── data-distribution/
-├── decision-tree/
-├── grid-search/
-├── hierarchical-clustering/
-├── k-mean-clustering/
-├── k-nearest-Neighbors/
-├── linear-regression/
-├── mode-mean-median/
-├── multiple-regression/
-├── normal-data-distribution/
-├── scaling/
-├── testAndtrain/
-├── datasets/
-├── README.md
-└── Requirement.txt
+## 📂 Repository Structure
+
+![image](https://github.com/user-attachments/assets/7c3205c4-7db9-4a68-8530-a2f1984ef1a8)
+
 
     Each folder contains:
 
@@ -40,7 +25,7 @@ algo/
 
         Explanations and usage instructions
 
-✨ Features
+## ✨ Features
 
     All Major ML Algorithms: Linear Regression, Logistic Regression, Decision Trees, KNN, K-Means, Bagging, Clustering, and more.
 
@@ -52,7 +37,7 @@ algo/
 
     Hands-On Learning: Code is well-commented and easy to follow.
 
-📚 What You’ll Learn
+## 📚 What You’ll Learn
 
     Machine Learning Fundamentals
 
@@ -68,15 +53,15 @@ algo/
 
     Practical use of Python ML libraries (NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn)
 
-🏗️ Getting Started
+## 🏗️ Getting Started
 
-    Clone the Repository
+Clone the Repository
 
-bash
-git clone https://github.com/Harshkuamr00/algo.git
-cd algo
+    bash
+    git clone https://github.com/Harshkuamr00/algo.git
+    cd algo
 
-Install Requirements
+### Install Requirements
 
     bash
     pip install -r Requirement.txt
@@ -89,18 +74,18 @@ Install Requirements
 
         View datasets and generated visualizations.
 
-🗂️ Example: How to Use
+## 🗂️ Example: How to Use
 
-bash
-cd linear-regression
-python linear_regression.py
+    bash
+    cd linear-regression
+    python linear_regression.py
 
 Or open the Jupyter notebook for an interactive experience:
 
-bash
-jupyter notebook linear_regression.ipynb
+    bash
+    jupyter notebook linear_regression.ipynb
 
-🖼️ Visualizations
+## 🖼️ Visualizations
 
 Each algorithm folder contains visualizations such as:
 
@@ -112,14 +97,16 @@ Each algorithm folder contains visualizations such as:
 
     Clustering plots
 
-📦 Datasets
+## 📦 Datasets
 
 All datasets used for demonstrations and testing are included in the datasets/ folder or within respective algorithm folders.
-🤝 Contributing
+
+## 🤝 Contributing
 
 Contributions are welcome!
 If you have improvements, new algorithms, or better visualizations, feel free to fork and submit a pull request.
-📄 License
+
+## 📄 License
 
 This project is open-source and available under the MIT License.
 🙏 Acknowledgements
