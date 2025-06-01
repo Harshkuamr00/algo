@@ -1,0 +1,53 @@
+let's understand the feature engineering:
+scaling and transformation is the essential preporcessing step in ml that prepare data for better model performance and reliability
+
+ensure the features contribute equally to the model
+-> Feature Transformation :
+it is modifying the distribution or structure of data feature to make them more suitable for modeling. take note modifying not converting.
+
+It involes :
+	Changing the shape of the distribution: (more use bell curve , uses normality) 
+	stabilizing varaiance and minizing skewness: (help handling heteroskcedasticity / hetroscedasticity( means when 		std of predicted vairable , may be non-constant , moniter over a different values of independent variable or 		as related to prior time periods, are non-constant)		
+		making the data more amenable to statistical modeling.
+	Traget transformation : applied to a target variable in regression task to improve model fit.
+
+
+some of the tecquines : 
+Log, bining, interactions
+
+Feature Scaling :
+it is a specific type of transformation that adjusts the range or distribution of numerical feature so they are comparable.
+
+why is it matters 
+cuz it improves model accuracy algo like k-nearest neighbors ,SVM(support vector machine ),speeds up convergence, enhances interpretability
+
+Common Methods : Standaridization (method of feature scaling in which data vales are rescaled to fit distribution b/w 0,1 .
+Normalization (what if our model is follow noraml distribuiton , used for scaling non-normal data is called max-min narmalization , again it scaling b/w (0,1) but the values are asinged based on there position of the data. 
+another apporach is unit-vector based ( part of normalization in which length of a vector or row is stretched to a unit sphere in a visual format.
+
+models and apporach to scaling :
+
+---------------------------------------------------------------------
+|	Types of algo             |	Feature Scaling Approach    |
+---------------------------------------------------------------------
+| Principle Component Analysis    | Standardization 		    |
+| K- Nearest Neighbors            | Normalization                   |
+| SVM 				  | Standardization 		    |
+| Logistic regression 		  | Normalization                   |	
+| Neural Networks                 | Normalization                   |
+---------------------------------------------------------------------
+
+Note : transformation and scaling not always requried in tree based algo /models( decision tree , random forest) 
+
+
+Feature Encoding : part of feature enginreering
+It is converting the categroical variable like text labels or odinal) into a numerical format that machine learning algo can process.
+
+Common Encoding Techinques :
+One - Hot Encoding 
+Label Encoding 
+ordinal Encoding
+numeric Encoding
+Cyclical Encoding (used in calender)
+
+

@@ -1,0 +1,38 @@
+Clulstering in machine learning is an unsupervised learning technique that groups similar data points into cluster based on their characteristics or pattern, (process of grouping unlabeled data into cluster based on ther similarites)
+
+Points To understand easily:
+1. process unlabeded data based on their similarities
+2. identify patterns adn relationships in the data without any prior knownlage (unsupervised learining technique)
+3. Process row , unclassified data object into group
+
+Some of the Common Clustering algorithms:
+-> K-means Clustering
+-> Hierarchical Clustering 
+-> Density-Based Clustering 
+-> Mean-shift Clustering
+-> Spectral Clustering
+
+Hierarchical Clustering:
+
+1. group similar data points together based on their similarity creating a hierachy or tree like sturcture
+2. compares the each sample with each one , finding the best combination which is most likely to the sample and group them , this is make a cluster1 , similarly  now sample2 compare and find best most likely and group them , this is make  cluster2 , it happens again and again now its time to compare clusters (it doesn't means how many there are) merge them, so conlusion it make a tree like sturcture and similar samples are placed in a most likley group
+
+3. the above process makes look like a hirarchical sturcture (dendrogram)
+4. it often associated with heatmaps
+
+Dendrogram : it is like family tree of clusters, it shows how individual data points or groups of data merge together ,the bottom shows each data points as its own group , and as you move up , similar groups are combined, it indicates both the similarity and the order that cluster were formed .
+
+Mehtod to use in heirarchical clustering:
+by Euclidean Distance : this a method that u use to find out the distance between to data element 
+by Manhanttan distance: in this method u will take absoulte values of differacnce
+
+Method used in compare the different clusters:
+by average of each cluster (using 'centroid')
+by closest point in each cluster ( using 'single-linkage')
+by furthest point in each cluster ( using 'complete-linkage')
+
+
+
+You can use whatever method you want preper the method that gives u inight into your data 
+
+
